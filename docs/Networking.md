@@ -4,7 +4,8 @@ title: Networking
 layout: docs
 category: The Basics
 permalink: docs/network.html
-next: navigators
+next: using-navigators
+previous: using-a-listview
 ---
 
 Many mobile apps need to load resources from a remote URL. You may want to make a POST request to a REST API, or you may simply need to fetch a chunk of static content from another server.
@@ -58,7 +59,7 @@ Networking is an inherently asynchronous operation. Fetch methods will return a 
   }
   ```
 
-You can also use ES7's `async`/`await` syntax in React Native app:
+You can also use the proposed ES2017 `async`/`await` syntax in a React Native app:
 
   ```js
   async getMoviesFromApi() {
@@ -73,6 +74,8 @@ You can also use ES7's `async`/`await` syntax in React Native app:
   ```
 
 Don't forget to catch any errors that may be thrown by `fetch`, otherwise they will be dropped silently.
+
+> By default, iOS will block any request that's not encrypted using SSL. If you need to fetch from a cleartext URL (one that begins with `http`) you will first need to add an App Transport Security exception. If you know ahead of time what domains you will need access to, it is more secure to add exceptions just for those domains; if the domains are not known until runtime you can [disable ATS completely](/react-native/docs/integration-with-existing-apps.html#app-transport-security). [See Apple's documentation for more information](https://developer.apple.com/library/ios/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW33).
 
 ### Using Other Networking Libraries
 
