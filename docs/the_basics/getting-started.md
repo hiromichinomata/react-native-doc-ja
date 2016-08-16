@@ -1,4 +1,4 @@
-# Getting Started
+# はじめる
 
 React Nativeにようこそ! このページではあなたがアプリを今すぐ作れるように、
 システムへのReact Nativeのインストールをお手伝いします。
