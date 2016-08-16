@@ -1,4 +1,3 @@
-# coding: utf-8
 # Getting Started
 
 React Nativeにようこそ! このページではあなたがアプリを今すぐ作れるように、
