@@ -134,11 +134,9 @@ react-native run-android
 おめでとうございます。はじめてのReact Nativeアプリの実行に成功しました。
 
 
-<block class="windows linux android" />
+## React Nativeのインストールをテストする(Linux、Windows)
 
-## Testing your React Native Installation
-
-Use the React Native command line tools to generate a new React Native project called "AwesomeProject"、 then run `react-native run-android` inside the newly created folder.
+React Nativeのコマンドライン・ツールを使って"AwsomeProject"という新しいReact Nativeのプロジェクトを生成します。そして、新しく出来たフォルダの中で`react-native run-android`を実行してください。
 
 ```
 react-native init AwesomeProject
@@ -146,29 +144,26 @@ cd AwesomeProject
 react-native run-android
 ```
 
-If everything is set up correctly、 you should see your new app running in your Android emulator shortly.
+すべてが上手くいけばすぐにAndroidエミュレータ上で新しいアプリが動いているのが見れるでしょう。
 
-> A common issue is that the packager is not started automatically when you run
-`react-native run-android`. You can start it manually using `react-native start`.
+よくある問題は`react-native run-android`を実行した際にパッケージャが始まらないことです。
+`react-native start`で手動で実行できます。
 
-<block class="windows android" />
+### Windowsのみ
+Windowsで`ERROR  Watcher took too long to load`が出たら、[このファイル](https://github.com/facebook/react-native/blob/5fa33f3d07f8595a188f6fe04d6168a6ede1e721/packager/react-packager/src/DependencyResolver/FileWatcher/index.js#L16)のタイムアウトの時間を上げてみてください。(`node_modules/react-native/`配下)
 
-> If you hit a `ERROR  Watcher took too long to load` on Windows、 try increasing the timeout in [this file](https://github.com/facebook/react-native/blob/5fa33f3d07f8595a188f6fe04d6168a6ede1e721/packager/react-packager/src/DependencyResolver/FileWatcher/index.js#L16) (under your `node_modules/react-native/`).
+If you hit a `ERROR  Watcher took too long to load` on Windows、 try increasing the timeout in [this file](https://github.com/facebook/react-native/blob/5fa33f3d07f8595a188f6fe04d6168a6ede1e721/packager/react-packager/src/DependencyResolver/FileWatcher/index.js#L16) (under your `node_modules/react-native/`).
 
-<block class="windows linux android" />
+## あなたのアプリを修正する(Linux、Windows)
 
-### Modifying your app
+アプリの実行に成功したので、修正してみましょう。
 
-Now that you have successfully run the app、 let's modify it.
+- `index.android.js`を好きなテキスト・エディタで開いて何行か変更します。
+- `R` を二回打つか開発メニューから`Reload`を選んで変更を確認しましょう!
 
-- Open `index.android.js` in your text editor of choice and edit some lines.
-- Press the `R` key twice or select `Reload` from the Developer Menu to see your change!
+### 以上です!
 
-### That's it!
-
-Congratulations! You've successfully run and modified a React Native app.
-
-<center><img src="img/react-native-congratulations.png" width="150"></img></center>
+おめでとうございます。はじめてのReact Nativeアプリの実行に成功しました。
 
 <block class="mac windows linux ios android" />
 
