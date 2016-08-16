@@ -116,29 +116,24 @@ react-native run-android
 
 すべてが上手くいけばすぐにAndroidエミュレータ上で新しいアプリが動いているのが見れるでしょう。`react-native run-android`はアプリを実行する方法の一つでしかなく、Android StudioやNuclide上で直接実行することもできます。
 
-<block class="mac ios android" />
+## あなたのアプリを修正する(Mac)
 
-## Modifying your app
+アプリの実行に成功したので、修正してみましょう。
 
-Now that you have successfully run the app、 let's modify it.
+### iOS
 
-<block class="mac ios" />
+- `index.ios.js`を好きなテキスト・エディタで開いて何行か変更します。
+- iOSシミュレータ上で`Command⌘ + R` を打って、アプリをリロード、変更を確認しましょう!
 
-- Open `index.ios.js` in your text editor of choice and edit some lines.
-- Hit `Command⌘ + R` in your iOS Simulator to reload the app and see your change!
+### Android
 
-<block class="mac android" />
+- `index.android.js`を好きなテキスト・エディタで開いて何行か変更します。
+- `R` を二回打つか開発メニューから`Reload`を選んで変更を確認しましょう!
 
-- Open `index.android.js` in your text editor of choice and edit some lines.
-- Press the `R` key twice or select `Reload` from the Developer Menu to see your change!
+### 以上です!
 
-<block class="mac ios android" />
+おめでとうございます。はじめてのReact Nativeアプリの実行に成功しました。
 
-### That's it!
-
-Congratulations! You've successfully run and modified your first React Native app.
-
-<center><img src="img/react-native-congratulations.png" width="150"></img></center>
 
 <block class="windows linux android" />
 
