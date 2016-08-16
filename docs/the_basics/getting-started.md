@@ -165,14 +165,14 @@ If you hit a `ERROR  Watcher took too long to load` on Windows、 try increasing
 
 おめでとうございます。はじめてのReact Nativeアプリの実行に成功しました。
 
-<block class="mac windows linux ios android" />
+## さて次は?
 
-## Now What?
+- この新しいReact Nativeのコードをすでにあるアプリケーションに追加したいなら
+[連携ガイド](../guides/integration-with-existing-apps.md)をチェックしてください。
 
-- If you want to add this new React Native code to an existing application、 check out the [Integration guide](docs/integration-with-existing-apps.html).
+- 上手くいかなかったのなら[トラブルシューティング](../quick_start/troubleshooting.md)のページを見てください。
 
-- If you can't get this to work、 see the [Troubleshooting](docs/troubleshooting.html#content) page.
+- もっとReact Nativeについて学びたいのなら、 [チュートリアル](tutorial.md)を続けてください。
 
-- If you're curious to learn more about React Native、 continue on
-to the [Tutorial](docs/tutorial.html).
+[次](tutorial.md)
 
