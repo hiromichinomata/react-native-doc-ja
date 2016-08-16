@@ -104,7 +104,7 @@ react-native run-ios
 
 すぐにiOSシミュレータ上で新しいアプリが動いているのが見れるでしょう。`react-native run-ios`はアプリを実行する方法の一つでしかなく、XocdeやNuclide上で直接実行することもできます。
 
-## Android
+### Android
 
 React Nativeのコマンドライン・ツールを使って"AwsomeProject"という新しいReact Nativeのプロジェクトを生成します。そして、新しく出来たフォルダの中で`react-native run-android`を実行してください。
 
@@ -118,7 +118,7 @@ react-native run-android
 
 <block class="mac ios android" />
 
-### Modifying your app
+## Modifying your app
 
 Now that you have successfully run the app、 let's modify it.
 
