@@ -52,7 +52,7 @@ Javaのコードを変更する予定なら、ビルドを高速化する[Gradle
 
 ## Linux + Androidで必要なもの
 
-nosw.jsとReact Nativeのコマンドライン・ツール、Watchman、Android Studio。
+node.jsとReact Nativeのコマンドライン・ツール、Watchman、Android Studio。
 
 ##  Windows + Android
 
