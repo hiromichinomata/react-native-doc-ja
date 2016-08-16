@@ -1,7 +1,7 @@
 React Nativeのドキュメントの日本語訳
 
 # 基本
-- [はじめる](docs/the_basics/getting_started.md)
+- [はじめる](docs/the_basics/getting-started.md)
 - チュートリアル
 - プロパティー
 - ステート
