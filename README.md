@@ -3,7 +3,7 @@ React Nativeのドキュメントの日本語訳
 # 基本
 - [はじめる](docs/the_basics/getting-started.md)
 - [チュートリアル](docs/the_basics/tutorial.md)
-- プロパティー
+- [プロパティー](docs/the_basics/props.md)
 - ステート
 - スタイル
 - 高さと幅
