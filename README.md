@@ -4,8 +4,8 @@ React Nativeのドキュメントの日本語訳
 - [はじめる](docs/the_basics/getting-started.md)
 - [チュートリアル](docs/the_basics/tutorial.md)
 - [プロパティー](docs/the_basics/props.md)
-- ステート
-- スタイル
+- [ステート](docs/the_basics/state.md)
+- [スタイル](docs/the_basics/style.md)
 - 高さと幅
 - Flexboxでレイアウト
 - テキスト入力のハンドリング
